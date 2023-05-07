@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Playlist() {
+export default function PlaylistAside() {
   return (
     <nav className=" mt-8 pt-10 border-t border-zinc-700">
       <div className="flex items-center gap-3 mb-6">
