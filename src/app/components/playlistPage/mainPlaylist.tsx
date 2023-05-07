@@ -3,7 +3,7 @@ import PlaylistMain from "./mainPlaylist/playlists";
 
 export default function MainPlaylists() {
   return (
-    <main className="flex-1 bg-gradient-to-b from-zinc-700 via-zinc-900 to-zinc-900 rounded-xl">
+    <main className="flex-1 bg-gradient-to-b from-spotifyHeadColor via-spotifyMidColor to-spotifyMidColor rounded-lg">
       <PlaylistMain />
       <DailyMix />
     </main>

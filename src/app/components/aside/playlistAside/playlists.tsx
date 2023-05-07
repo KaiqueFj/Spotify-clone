@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function PlaylistAside() {
   return (
-    <nav className=" mt-8 pt-10 border-t border-zinc-700">
+    <nav className=" mt-8 pt-10 border-t border-spotifyContainerBG">
       <div className="flex items-center gap-3 mb-6">
         <a href="">
           <Image
@@ -13,7 +13,7 @@ export default function PlaylistAside() {
             height={120}
           />
         </a>
-        <p className="  text-zinc-100 text-base font-semibold ">
+        <p className="  text-whiteText text-base font-semibold ">
           Rap old school
         </p>
       </div>
@@ -28,7 +28,7 @@ export default function PlaylistAside() {
             height={120}
           />
         </a>
-        <p className="  text-zinc-100 text-base font-semibold ">Soul </p>
+        <p className="  text-whiteText text-base font-semibold ">Soul </p>
       </div>
 
       <div className="flex items-center gap-3 mb-6">
@@ -41,7 +41,7 @@ export default function PlaylistAside() {
             height={120}
           />
         </a>
-        <p className="  text-zinc-100 text-base font-semibold ">Classical</p>
+        <p className="  text-whiteText text-base font-semibold ">Classical</p>
       </div>
 
       <div className="flex items-center gap-3 mb-6">
@@ -54,7 +54,7 @@ export default function PlaylistAside() {
             height={120}
           />
         </a>
-        <p className="  text-zinc-100 text-base font-semibold ">Vintage</p>
+        <p className="  text-whiteText text-base font-semibold ">Vintage</p>
       </div>
     </nav>
   );
