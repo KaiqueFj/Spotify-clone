@@ -1,5 +1,6 @@
 import MainPlaylists from "./components/playlistPage/mainPlaylist";
 import Aside from "./components/aside/asidePage";
+import Footer from "./components/footer/footer";
 
 export default function Home() {
   return (
@@ -8,10 +9,8 @@ export default function Home() {
         <Aside />
         <MainPlaylists />
       </div>
-      <footer className=" h-screen  w-screen bg-blackBg flex-1">
-        
-        footer
-      </footer>
+    
+      <Footer/>
     </div>
   );
 }
