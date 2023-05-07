@@ -20,7 +20,7 @@ export default function PlaylistMain() {
 
       <div>
         <nav className="  grid grid-rows-2  grid-cols-3 mt-8 pt-10 pl-8  pr-8 border-t  gap-6 border-spotifyContainerBG ">
-          <div className=" p-1 flex items-center gap-4  h-20 bg-spotifyContainerBG rounded-lg  group hover:bg-zinc-400  transition-colors ">
+          <div className=" p-1 flex items-center gap-4  h-20 bg-spotifyContainerBG rounded-lg  group hover:bg-spotifybgCardHover  transition-colors ">
             <a href="">
               <Image
                 src="/images/likedSong.jpg"
@@ -38,8 +38,11 @@ export default function PlaylistMain() {
             </button>
           </div>
 
-          <div className=" p-1 flex items-center gap-4  h-20 bg-spotifyContainerBG rounded-lg  group hover:bg-zinc-400  transition-colors ">
-            <a href="" className=" hover:bg-zinc-400  transition-colors">
+          <div className=" p-1 flex items-center gap-4  h-20 bg-spotifyContainerBG rounded-lg  group hover:bg-spotifybgCardHover  transition-colors ">
+            <a
+              href=""
+              className=" hover:bg-spotifybgCardHover  transition-colors"
+            >
               <Image
                 src="/images/Eletronic Hits.jpg"
                 alt="Album image of Eletronic hits Playlist"
@@ -56,7 +59,7 @@ export default function PlaylistMain() {
             </button>
           </div>
 
-          <div className=" p-1 flex items-center gap-4  h-20 bg-spotifyContainerBG rounded-lg  group hover:bg-zinc-400  transition-colors ">
+          <div className=" p-1 flex items-center gap-4  h-20 bg-spotifyContainerBG rounded-lg  group hover:bg-spotifybgCardHover  transition-colors ">
             <a href="">
               <Image
                 src="/images/rap-songs.png"
@@ -74,7 +77,7 @@ export default function PlaylistMain() {
             </button>
           </div>
 
-          <div className=" p-1 flex items-center gap-4  h-20 bg-spotifyContainerBG rounded-lg  group hover:bg-zinc-400  transition-colors ">
+          <div className=" p-1 flex items-center gap-4  h-20 bg-spotifyContainerBG rounded-lg  group hover:bg-spotifybgCardHover  transition-colors ">
             <a href="">
               <Image
                 src="/images/disco.png"
@@ -92,7 +95,7 @@ export default function PlaylistMain() {
             </button>
           </div>
 
-          <div className=" p-1 flex items-center gap-4  h-20 bg-spotifyContainerBG rounded-lg  group hover:bg-zinc-400  transition-colors ">
+          <div className=" p-1 flex items-center gap-4  h-20 bg-spotifyContainerBG rounded-lg  group hover:bg-spotifybgCardHover  transition-colors ">
             <a href="">
               <Image
                 src="/images/vintage.webp"
@@ -110,7 +113,7 @@ export default function PlaylistMain() {
             </button>
           </div>
 
-          <div className=" p-1 flex items-center gap-4 h-20 bg-spotifyContainerBG rounded-lg  group hover:bg-zinc-400  transition-colors  ">
+          <div className=" p-1 flex items-center gap-4 h-20 bg-spotifyContainerBG rounded-lg  group hover:bg-spotifybgCardHover  transition-colors  ">
             <a href="">
               <Image
                 src="/images/jazz-vibes.png"

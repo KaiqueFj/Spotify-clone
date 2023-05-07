@@ -8,8 +8,9 @@ module.exports = {
   theme: {
     colors: {
       spotifyHeadColor: "#4b454d",
-      spotifyBtColor: '#1fdf64',
-      spotifyBlackbgCard: "#1c1c1c",
+      spotifyBtColor: "#1fdf64",
+      spotifyBlackbgCard: "#191414",
+      spotifybgCardHover: '#4a4949',
       spotifyMidColor: "#121212",
       spotifyBlack: "#262626",
       spotifyContainerBG: "#333233",
