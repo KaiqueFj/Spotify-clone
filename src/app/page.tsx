@@ -9,7 +9,7 @@ export default function Home() {
         <Aside />
         <MainPlaylists />
       </div>
-    
+  
       <Footer/>
     </div>
   );

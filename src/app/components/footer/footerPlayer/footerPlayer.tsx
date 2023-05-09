@@ -10,15 +10,15 @@ export default function FooterPlayer() {
   return (
     <div className="flex flex-col justify-center text-whiteText">
       <div className="flex items-center justify-center gap-6">
-        <ShuffleIcon size={23} className="text-subTextGrey" />
+        <ShuffleIcon size={20} className="text-subTextGrey" />
 
-        <ArrowLeftIcon size={23} className="text-subTextGrey" />
+        <ArrowLeftIcon size={20} className="text-subTextGrey" />
 
         <button className="flex items-center pl-2 w-10 h-10 bg-whiteText rounded-full text-blackBg">
-          <PlayIcon size={23} />
+          <PlayIcon size={22} />
         </button>
-        <ArrowRightIcon size={23} className="text-subTextGrey" />
-        <Repeat1Icon size={23} className="text-subTextGrey" />
+        <ArrowRightIcon size={20} className="text-subTextGrey" />
+        <Repeat1Icon size={20} className="text-subTextGrey" />
       </div>
 
       <div className="flex items-center gap-3">

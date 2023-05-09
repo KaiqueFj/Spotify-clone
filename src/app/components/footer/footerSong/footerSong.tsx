@@ -4,9 +4,9 @@ import { HeartIcon } from "lucide-react";
 export default function FooterSong() {
   return (
     <div className="flex  items-center">
-      <a href="#" className="pr-6">
+      <a href="#" className="ml-2 pr-4  pb-3">
         <Image
-          className=" ml-4 rounded-lg pb-3"
+          className=" rounded-lg"
           src="/images/playlists/macDemarcoAlbum.png"
           alt="Album image of chamber of reflection"
           width={70}
@@ -15,7 +15,7 @@ export default function FooterSong() {
       </a>
 
       <div>
-        <strong className="text-sm  text-left  text-whiteText  font-medium		 ">
+        <strong className="text-sm  text-left  text-whiteText  font-medium">
           Chamber of Reflection
         </strong>
         <p className=" text-left text-subTextGrey text-xs font-normal">
