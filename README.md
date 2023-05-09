@@ -19,3 +19,5 @@ $ git clone https://github.com/KaiqueFj/Spotify-clone.git
 ```
 
 **That´s all folks ;)**
+
+[My Image] (public/images/page/Print.jpg)
