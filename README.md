@@ -1,4 +1,4 @@
- #Spotify-Clone
+ # Spotify-Clone
 
 # 📕 About this project
 
