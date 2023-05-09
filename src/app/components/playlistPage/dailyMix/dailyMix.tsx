@@ -15,7 +15,7 @@ export default function DailyMix() {
           <a href="#">
             <Image
               className="ml-4 rounded-lg pb-3"
-              src="/images/motown.jpg"
+              src="/images/dailyMix/motown.jpg"
               alt="Album image of motown-mix Playlist"
               width={180}
               height={180}
@@ -34,7 +34,7 @@ export default function DailyMix() {
           <a href="#">
             <Image
               className="ml-4 rounded-lg pb-3"
-              src="/images/rock.webp"
+              src="/images/dailyMix/rock.webp"
               alt="Album image of rock-mix Playlist"
               width={180}
               height={180}
@@ -52,7 +52,7 @@ export default function DailyMix() {
           <a href="#">
             <Image
               className="ml-4 rounded-lg pb-3"
-              src="/images/rap-cover.jpg"
+              src="/images/dailyMix/rap-cover.jpg"
               alt="Album image of rap-mix Playlist"
               width={180}
               height={180}
@@ -70,7 +70,7 @@ export default function DailyMix() {
           <a href="#">
             <Image
               className="ml-4 rounded-lg pb-3"
-              src="/images/baco-exu.jpg"
+              src="/images/dailyMix/baco-exu.jpg"
               alt="Album image of Baco-exu Playlist"
               width={180}
               height={180}
@@ -87,7 +87,7 @@ export default function DailyMix() {
           <a href="#">
             <Image
               className="ml-4 rounded-lg pb-3"
-              src="/images/racionais.jpg"
+              src="/images/dailyMix/racionais.jpg"
               alt="Album image of racionais Playlist"
               width={180}
               height={180}

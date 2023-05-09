@@ -23,7 +23,7 @@ export default function PlaylistMain() {
           <div className=" p-1 flex items-center gap-4  h-20 bg-spotifyContainerBG rounded-lg  group transition ease-in-out delay-400  hover:bg-spotifybgCardHover  duration-300   ">
             <a href="">
               <Image
-                src="/images/likedSong.jpg"
+                src="/images/playlists/likedSong.jpg"
                 alt="Album image of liked songs"
                 width={90}
                 height={110}
@@ -44,7 +44,7 @@ export default function PlaylistMain() {
               className=" hover:bg-spotifybgCardHover  transition-colors"
             >
               <Image
-                src="/images/Eletronic Hits.jpg"
+                src="/images/playlists/Eletronic Hits.jpg"
                 alt="Album image of Eletronic hits Playlist"
                 width={90}
                 height={140}
@@ -62,7 +62,7 @@ export default function PlaylistMain() {
           <div className=" p-1 flex items-center gap-4  h-20 bg-spotifyContainerBG rounded-lg  group transition ease-in-out delay-400  hover:bg-spotifybgCardHover  duration-300   ">
             <a href="">
               <Image
-                src="/images/rap-songs.png"
+                src="/images/playlists/rap-songs.png"
                 alt="Album image of rao-songs Playlist"
                 width={90}
                 height={140}
@@ -80,7 +80,7 @@ export default function PlaylistMain() {
           <div className=" p-1 flex items-center gap-4  h-20 bg-spotifyContainerBG rounded-lg  group transition ease-in-out delay-400  hover:bg-spotifybgCardHover  duration-300   ">
             <a href="">
               <Image
-                src="/images/disco.png"
+                src="/images/playlists/disco.png"
                 alt="Album image of disco Playlist"
                 width={90}
                 height={140}
@@ -98,7 +98,7 @@ export default function PlaylistMain() {
           <div className=" p-1 flex items-center gap-4  h-20 bg-spotifyContainerBG rounded-lg  group transition ease-in-out delay-400  hover:bg-spotifybgCardHover  duration-300   ">
             <a href="">
               <Image
-                src="/images/vintage.webp"
+                src="/images/playlists/vintage.webp"
                 alt="Album image of Vintage Playlist"
                 width={90}
                 height={140}
@@ -116,7 +116,7 @@ export default function PlaylistMain() {
           <div className=" p-1 flex items-center gap-4 h-20 bg-spotifyContainerBG rounded-lg  group hover:bg-spotifybgCardHover  transition-colors  ">
             <a href="">
               <Image
-                src="/images/jazz-vibes.png"
+                src="/images/playlists/jazz-vibes.png"
                 alt="Album image of jazz-vibes Playlist"
                 width={90}
                 height={140}

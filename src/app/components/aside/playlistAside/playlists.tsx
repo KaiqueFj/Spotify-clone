@@ -7,7 +7,7 @@ export default function PlaylistAside() {
         <a href="">
           <Image
             className=" flex rounded-xl"
-            src="/images/pac.webp"
+            src="/images/playlists/pac.webp"
             alt="Album image of shark Playlist"
             width={80}
             height={120}
@@ -22,7 +22,7 @@ export default function PlaylistAside() {
         <a href="">
           <Image
             className=" flex rounded-xl"
-            src="/images/soul.jpg"
+            src="/images/playlists/soul.jpg"
             alt="Album image of shark Playlist"
             width={80}
             height={120}
@@ -35,7 +35,7 @@ export default function PlaylistAside() {
         <a href="">
           <Image
             className=" flex rounded-xl"
-            src="/images/classical.webp"
+            src="/images/playlists/classical.webp"
             alt="Album image of shark Playlist"
             width={80}
             height={120}
@@ -48,7 +48,7 @@ export default function PlaylistAside() {
         <a href="">
           <Image
             className=" flex rounded-xl"
-            src="/images/vintage.webp"
+            src="/images/playlists/vintage.webp"
             alt="Album image of shark Playlist"
             width={80}
             height={120}
