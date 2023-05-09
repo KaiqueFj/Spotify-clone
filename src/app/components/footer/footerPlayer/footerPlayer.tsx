@@ -8,22 +8,26 @@ import {
 
 export default function FooterPlayer() {
   return (
-    <div className=" w-md flex flex-row  items-center justify-center  text-center text-whiteText">
-      <a>
-        <ShuffleIcon size={23} />
-      </a>
-      <a>
-        <ArrowLeftIcon size={23} />
-      </a>
-      <a>
-        <PlayIcon size={23} />
-      </a>
-      <a>
-        <ArrowRightIcon size={23} />
-      </a>
-      <a>
-        <Repeat1Icon size={23} />
-      </a>
+    <div className="flex flex-col justify-center text-whiteText">
+      <div className="flex items-center justify-center gap-6">
+        <ShuffleIcon size={23} className="text-subTextGrey" />
+
+        <ArrowLeftIcon size={23} className="text-subTextGrey" />
+
+        <button className="flex items-center pl-2 w-10 h-10 bg-whiteText rounded-full text-blackBg">
+          <PlayIcon size={23} />
+        </button>
+        <ArrowRightIcon size={23} className="text-subTextGrey" />
+        <Repeat1Icon size={23} className="text-subTextGrey" />
+      </div>
+
+      <div className="flex items-center gap-3">
+        <span className="text-xs text-whiteText">00:31</span>
+        <div className="h-1 rounded-full w-96 bg-spotifyHeadColor">
+          <div className="h-1 rounded-full w-40 bg-whiteText"></div>
+        </div>
+        <span className="text-xs text-whiteText">2:31</span>
+      </div>
     </div>
   );
 }
