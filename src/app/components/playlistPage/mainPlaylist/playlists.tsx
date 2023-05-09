@@ -5,11 +5,11 @@ export default function PlaylistMain() {
   return (
     <>
       <nav className="flex gap-2 p-4">
-        <a className="rounded-full bg-spotifyBlack  text-whiteText text-lg p-2">
+        <a className="rounded-full bg-spotifyBlack  text-whiteText text-lg p-1">
           <ChevronLeft />
         </a>
 
-        <a className="rounded-full bg-spotifyBlack  text-whiteText text-lg p-2">
+        <a className="rounded-full bg-spotifyBlack  text-whiteText text-lg p-1">
           <ChevronRight />
         </a>
       </nav>
@@ -19,8 +19,8 @@ export default function PlaylistMain() {
       </div>
 
       <div>
-        <nav className="  grid grid-rows-2  grid-cols-3 mt-8 pt-10 pl-8  pr-8 border-t  gap-6 border-spotifyContainerBG ">
-          <div className="flex items-center h-20 bg-spotifyContainerBG rounded-lg  group transition ease-in-out delay-400  hover:bg-spotifybgCardHover  duration-300   ">
+        <nav className="  grid grid-rows-2  grid-cols-3 mt-4 pl-8  pr-8 border-t  gap-6 border-spotifyContainerBG ">
+          <div className="flex items-center h-18 bg-spotifyContainerBG rounded-lg  group transition ease-in-out delay-400  hover:bg-spotifybgCardHover  duration-300   ">
           <a href="" className="pr-3">
               <Image
                 src="/images/playlists/likedSong.jpg"
@@ -38,7 +38,7 @@ export default function PlaylistMain() {
             </button>
           </div>
 
-          <div className="flex items-center h-20 bg-spotifyContainerBG rounded-lg  group transition ease-in-out delay-400  hover:bg-spotifybgCardHover  duration-300   ">
+          <div className="flex items-center h-18 bg-spotifyContainerBG rounded-lg  group transition ease-in-out delay-400  hover:bg-spotifybgCardHover  duration-300   ">
             <a href="" className="pr-3">
               <Image
                 src="/images/playlists/Eletronic Hits.jpg"
@@ -56,7 +56,7 @@ export default function PlaylistMain() {
             </button>
           </div>
 
-          <div className="flex items-center h-20 bg-spotifyContainerBG rounded-lg  group transition ease-in-out delay-400  hover:bg-spotifybgCardHover  duration-300   ">
+          <div className="flex items-center h-18 bg-spotifyContainerBG rounded-lg  group transition ease-in-out delay-400  hover:bg-spotifybgCardHover  duration-300   ">
             <a href="" className="pr-3">
               <Image
                 className=" h-max"
@@ -75,7 +75,7 @@ export default function PlaylistMain() {
             </button>
           </div>
 
-          <div className="flex items-center h-20 bg-spotifyContainerBG rounded-lg  group transition ease-in-out delay-400  hover:bg-spotifybgCardHover  duration-300   ">
+          <div className="flex items-center h-18 bg-spotifyContainerBG rounded-lg  group transition ease-in-out delay-400  hover:bg-spotifybgCardHover  duration-300   ">
             <a href="" className="pr-3">
               <Image
                 src="/images/playlists/disco.png"
@@ -93,7 +93,7 @@ export default function PlaylistMain() {
             </button>
           </div>
 
-          <div className="flex items-center h-20 bg-spotifyContainerBG rounded-lg  group transition ease-in-out delay-400  hover:bg-spotifybgCardHover  duration-300   ">
+          <div className="flex items-center h-18 bg-spotifyContainerBG rounded-lg  group transition ease-in-out delay-400  hover:bg-spotifybgCardHover  duration-300   ">
             <a href="" className="pr-3">
               <Image
                 src="/images/playlists/vintage.webp"
@@ -111,7 +111,7 @@ export default function PlaylistMain() {
             </button>
           </div>
 
-          <div className="flex items-center h-20 bg-spotifyContainerBG rounded-lg  group transition ease-in-out delay-400  hover:bg-spotifybgCardHover  duration-300   ">
+          <div className="flex items-center h-18 bg-spotifyContainerBG rounded-lg  group transition ease-in-out delay-400  hover:bg-spotifybgCardHover  duration-300   ">
             <a href="" className="pr-3">
               <Image
                 src="/images/playlists/jazz-vibes.png"

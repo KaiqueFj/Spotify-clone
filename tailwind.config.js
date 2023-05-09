@@ -9,8 +9,8 @@ module.exports = {
     colors: {
       spotifyHeadColor: "#4b454d",
       spotifyBtColor: "#1fdf64",
-      spotifyBlackbgCard: "#191414",
-      spotifybgCardHover: '#4a4949',
+      spotifyBlackbgCard: "#181818",
+      spotifybgCardHover: "#4a4949",
       spotifyMidColor: "#121212",
       spotifyBlack: "#262626",
       spotifyContainerBG: "#333233",
@@ -24,6 +24,9 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      height: {
+        '300': '17rem',
+      }
     },
   },
   plugins: [],
