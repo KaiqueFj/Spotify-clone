@@ -18,7 +18,7 @@ export default function FooterSong() {
         <strong className="text-sm  text-left  text-whiteText  font-medium		 ">
           Chamber of Reflection
         </strong>
-        <p className=" text-left text-subTextGrey text-xs font-thin">
+        <p className=" text-left text-subTextGrey text-xs font-normal">
           Mac demarco
         </p>
       </div>
